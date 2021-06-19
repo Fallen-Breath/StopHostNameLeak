@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.fallenbreath.template_mod.mixins",
+  "package": "me.fallenbreath.stop_hostname_leak.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MinecraftServerMixin"
   ],
   "client": [
+    "ConnectScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "template_mod",
+  "id": "stop_hostname_leak",
   "version": "1.0.0",
 
-  "name": "template_mod",
-  "description": "",
+  "name": "StopHostNameLeak",
+  "description": "Fixes the hostname leaking issue when the client failed to connect to the server",
   "authors": [
     "Fallen_Breath"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/",
-    "sources": "https://github.com/"
+    "homepage": "https://github.com/Fallen-Breath/StopHostNameLeak",
+    "sources": "https://github.com/Fallen-Breath/StopHostNameLeak"
   },
 
-  "icon": "assets/template_mod/icon.png",
+  "icon": "assets/stop_hostname_leak/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
     ]
   },
   "mixins": [
-    "template_mod.mixins.json"
+    "stop_hostname_leak.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.1",
-    "minecraft": "1.15.x"
+    "minecraft": ">=1.17"
   },
   "suggests": {
     "flamingo": "*"
